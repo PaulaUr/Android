@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CalculatorDSA</string>
+    <string name="num1">0</string>
+    <string name="num2">0</string>
+    <string name="resultado">0</string>
+    <string name="Resultat">Resultat</string>
+    <string name="Esborrar">esborrar</string>
+
+</resources>
