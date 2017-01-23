@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Etakemon_Projecte</string>
+    <string name="Usuario">nick</string>
+    <string name="Contraseña">contraseña</string>
+    <string name="textView">texto1</string>
+    <string name="textView2">texto2</string>
+    <string name="JUGAR">jugar</string>
+
+    <string name="logo_etakemon">logo_proyecto</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/Password"
+        android:hint="Password"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRAR"
+        android:id="@+id/button3"
+        android:onClick="registro1"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/Password"
+        android:layout_alignLeft="@+id/Password"
+        android:layout_alignStart="@+id/Password"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/Password"
+        android:layout_alignStart="@+id/Password"
+        android:layout_marginTop="26dp"
+        android:id="@+id/Nombre" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Usuario"
+        android:hint="Usuario"
+        android:layout_below="@+id/Nombre"
+        android:layout_alignLeft="@+id/Nombre"
+        android:layout_alignStart="@+id/Nombre"
+        android:layout_marginTop="46dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_above="@+id/Password"
+        android:layout_alignLeft="@+id/Password"
+        android:layout_alignStart="@+id/Password"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/Email" />
+
+</RelativeLayout>
